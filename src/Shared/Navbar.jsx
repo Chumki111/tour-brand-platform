@@ -25,8 +25,8 @@ function Navbar(props) {
       pathname: '/',
     },
     {
-      route: 'About',
-      pathname: '/about'
+      route: 'Gallery',
+      pathname: '/gallery'
     },
     {
       route: 'Skills',
@@ -72,7 +72,7 @@ function Navbar(props) {
   const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: 'flex' }}>
+    <Box>
 
       <AppBar sx={{ backgroundColor: '#232d3f' }}>
         <Toolbar>
