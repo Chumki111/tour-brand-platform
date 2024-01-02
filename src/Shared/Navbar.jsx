@@ -14,8 +14,6 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
-// import { Avatar, Stack } from '@mui/material';
-// import avatar from '../../assets/profile-pic__5_-removebg-preview.png'
 const drawerWidth = 240;
 
 function Navbar(props) {
@@ -51,8 +49,8 @@ function Navbar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center',}} >
       
-      <Typography variant="h6" sx={{ my: 2 }} className='cursor-pointer'>
-        CHUMKI-KHATUN
+      <Typography variant="h6" sx={{ my: 2 }} className='cursor-pointer uppercase'>
+       Brand-Tour
       </Typography>
       <Divider />
       <List>
@@ -85,17 +83,14 @@ function Navbar(props) {
           >
             <MenuIcon />
           </IconButton>
-          {/* <Stack direction="row" spacing={2}>
-     
-      <Avatar alt="Cindy Baker" src={avatar} />
-    </Stack> */}
+          
           <Typography
             variant="h6"
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
-            className='cursor-pointer'
+            className='cursor-pointer uppercase'
           >
-            CHUMKI-KHATUN
+            Brand-Tour
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (

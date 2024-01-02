@@ -13,15 +13,7 @@ const Footer = () => {
     return (
         <Box className="bg-black shadow-lg px-2 py-6">
             <Container>
-            <Typography color='white' variant="h5" textAlign="center">
-                    Contact Information
-                    </Typography>
-                    <Typography color='white' variant="body2" textAlign="center">
-                    Email : chumkikhatun370@gmail.com
-                    </Typography>
-                    <Typography color='white' variant="body2" textAlign="center">
-                    Phone : +880 1777-250277
-                    </Typography>
+           
                 <Box className="w-full text-center" sx={{
                         '& svg': {
                             color: 'white'
@@ -52,7 +44,7 @@ const Footer = () => {
                     
                    
                     <Typography color='gray' variant="body2" textAlign="center">
-                    @2023 Portfolio. Design by Chumki Khatun
+                    @2024 Portfolio. Design by Brand-Tour
                     </Typography>
             </Container>
         </Box>
