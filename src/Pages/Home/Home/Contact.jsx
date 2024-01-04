@@ -1,0 +1,11 @@
+
+
+const Contact = () => {
+    return (
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ipsam, voluptatem itaque dolor maiores voluptate dolores saepe beatae quos tempore ad quod repellendus animi quaerat omnis? Illum ipsum sapiente perferendis asperiores vero eaque distinctio error, dolorem, optio at a dicta tempora alias numquam nostrum. Minima quibusdam ab facilis consequatur sapiente, iure corrupti omnis culpa dolorum. Porro sed iure, praesentium eum animi odit quis ducimus eveniet minima nam sint? Explicabo, dolorum maiores. Possimus dolor nam distinctio dignissimos nemo eveniet iusto saepe, consequuntur sed modi repellendus eligendi ipsam quod. Vel repellendus, ut repudiandae ea aspernatur laborum expedita velit laboriosam suscipit esse voluptates, ratione cumque fugit delectus ab dolores deserunt ullam perferendis molestiae, illo iusto tempore. Voluptate voluptatibus reprehenderit aliquam adipisci. Obcaecati ipsam ut tenetur dolores id nihil molestiae aliquam fugiat, assumenda quas maiores repellendus impedit nobis ex commodi voluptatibus vel nam officia vitae facere in quidem nemo recusandae illum. Soluta repudiandae quisquam aspernatur odio repellat adipisci quod, facere, corporis, voluptas error sequi. Animi, nisi nesciunt at corrupti deleniti expedita sed ratione libero numquam blanditiis quisquam impedit ipsam sint quaerat doloribus debitis! Fugiat facilis cum neque possimus dolore a impedit eum officia nesciunt, assumenda molestias velit ea aliquid eaque saepe obcaecati fuga maiores ipsa esse quod. Dolorem sequi doloremque quam aliquid nobis consectetur autem eveniet culpa. Quis sint nemo recusandae nesciunt, ex minima ipsam, cupiditate natus, quo porro optio architecto saepe accusamus exercitationem. Numquam temporibus veniam maiores ratione tempore vel doloremque, odio harum nulla ea facilis dicta et pariatur quas officia impedit delectus, exercitationem sunt molestiae? Cum et quisquam, debitis aliquam quod dicta dolore distinctio aspernatur neque obcaecati reiciendis nulla dolor, aliquid suscipit rerum nihil quidem consequatur accusamus nesciunt temporibus esse labore deleniti optio! Ex nesciunt facilis quod earum maiores unde velit a alias et consequatur, est accusantium voluptas itaque tenetur, recusandae qui.</p>
+        </div>
+    );
+};
+
+export default Contact;
