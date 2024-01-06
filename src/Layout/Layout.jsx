@@ -3,9 +3,11 @@ import Navbar from "../Shared/Navbar";
 import Footer from "../Shared/Footer";
 
 
+
 const Layout = () => {
     return (
         <div className="">
+            
             <Navbar/>
             <div className="min-h-screen">
             <Outlet/>

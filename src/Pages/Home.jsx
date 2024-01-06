@@ -5,6 +5,7 @@ import Contact from "./Home/Home/Contact";
 const Home = () => {
     return (
         <div className="">
+            
            <Banner/>
            <Contact/>
         </div>
