@@ -27,8 +27,8 @@ function Navbar(props) {
       pathname: '/gallery'
     },
     {
-      route: 'Skills',
-      pathname: '/skills'
+      route: 'Login',
+      pathname: '/login'
     },
     {
       route: 'Projects',

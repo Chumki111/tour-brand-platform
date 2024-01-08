@@ -6,7 +6,7 @@ import Footer from "../Shared/Footer";
 
 const Layout = () => {
     return (
-        <div className="">
+        <div className="bg-white">
             
             <Navbar/>
             <div className="min-h-screen">
