@@ -6,10 +6,14 @@ import { Link } from "react-router-dom";
 const SignIn = () => {
    
 
-    const handleRegister =() =>{
+    const handleRegister =(e) =>{
        
-        
-        console.log('hello');
+        e.preventDefault();
+
+        const form = e.target;
+        const email = form.email.value;
+        const password = form.password.value;  
+        console.log(email,password);
     }
     return (
       
