@@ -34,12 +34,18 @@ const SignIn = () => {
       {/* register form  */}
       <form onSubmit={handleRegister} className={`p-8 w-full lg:w-1/2 ${register ? "translate-x-0" : "-translate-x-full"} duration-500`}><h1 className="backdrop-blur-sm text-4xl pb-4">Register</h1>
         <div className="space-y-5">
+            {/* name input */}
           <label htmlFor="name" className="block">Name</label>
           <input id="name" name="name" type="name" placeholder="Jhon Doe" className="p-3 block w-full drop-shadow-lg outline-none border rounded-md  invalid:border-red-700 valid:border-black"/>
+          {/* email input */}
           <label htmlFor="u_email" className="block">Email</label>
           <input id="u_email" name="email" type="email" placeholder="example@example.com" className="p-3 block w-full drop-shadow-lg outline-none border rounded-md  invalid:border-red-700 valid:border-black"/>
+          {/* password input */}
           <label htmlFor="u_password" className="block">Password</label>
           <input id="u_password" name="password" type="password" placeholder=".............." min={5} className="p-3 block w-full drop-shadow-lg outline-none border rounded-md invalid:border-red-700 valid:border-black"/>
+          {/* image input */}
+          <label htmlFor="image" className="block">Select Image</label>
+          <input id="image" name="image" type="file"  accept="image/*" placeholder="Upload Image" className="p-3 block w-full drop-shadow-lg outline-none border rounded-md invalid:border-red-700 valid:border-black"/>
         </div>
         {/* button type will be submit for handling form submission*/}
         <button type="submit" className="py-2 px-5 mb-4 mx-auto mt-8 shadow-lg border rounded-md border-black block">Submit</button>
